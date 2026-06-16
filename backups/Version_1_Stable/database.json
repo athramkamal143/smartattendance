@@ -1,0 +1,526 @@
+{
+  "departments": [
+    {
+      "id": "dept-1",
+      "department_name": "CSE",
+      "hod": "Dr. Amit Verma",
+      "year": "1st, 2nd, 3rd, 4th Year"
+    },
+    {
+      "id": "dept-2",
+      "department_name": "IT",
+      "hod": "Dr. Rajesh Gupta",
+      "year": "1st, 2nd, 3rd, 4th Year"
+    },
+    {
+      "id": "dept-3",
+      "department_name": "ECE",
+      "hod": "Dr. Sunita Rao",
+      "year": "1st, 2nd, 3rd, 4th Year"
+    },
+    {
+      "id": "dept-4",
+      "department_name": "EEE",
+      "hod": "Dr. Manoj Sen",
+      "year": "1st, 2nd, 3rd Year"
+    },
+    {
+      "id": "dept-5",
+      "department_name": "Mechanical",
+      "hod": "Dr. Suresh Patil",
+      "year": "1st, 2nd, 3rd, 4th Year"
+    },
+    {
+      "id": "dept-6",
+      "department_name": "Civil",
+      "hod": "Dr. Ramesh Nair",
+      "year": "1st, 2nd, 3rd, 4th Year"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub-1",
+      "subject_code": "CS401",
+      "subject_name": "DBMS",
+      "department": "CSE",
+      "year": 2,
+      "semester": 3
+    },
+    {
+      "id": "sub-2",
+      "subject_code": "CS402",
+      "subject_name": "Operating Systems",
+      "department": "CSE",
+      "year": 2,
+      "semester": 3
+    },
+    {
+      "id": "sub-3",
+      "subject_code": "IT501",
+      "subject_name": "Web Technologies",
+      "department": "IT",
+      "year": 3,
+      "semester": 5
+    },
+    {
+      "id": "sub-4",
+      "subject_code": "EC301",
+      "subject_name": "Digital Electronics",
+      "department": "ECE",
+      "year": 2,
+      "semester": 3
+    },
+    {
+      "id": "sub-5",
+      "subject_code": "CS601",
+      "subject_name": "Compiler Design",
+      "department": "CSE",
+      "year": 3,
+      "semester": 5
+    }
+  ],
+  "faculty": [
+    {
+      "id": "fac-1",
+      "name": "Ravi Kumar",
+      "email": "ravi@college.edu",
+      "password": "facultypassword",
+      "department": "CSE",
+      "approved": true,
+      "active": true
+    },
+    {
+      "id": "fac-2",
+      "name": "Priya Sharma",
+      "email": "priya@college.edu",
+      "password": "facultypassword",
+      "department": "IT",
+      "approved": true,
+      "active": true
+    },
+    {
+      "id": "fac-3",
+      "name": "Amit Patel",
+      "email": "amit@college.edu",
+      "password": "facultypassword",
+      "department": "ECE",
+      "approved": false,
+      "active": true
+    },
+    {
+      "id": "fac-4",
+      "name": "Suresh Chandra",
+      "email": "suresh@college.edu",
+      "password": "facultypassword",
+      "department": "CSE",
+      "approved": true,
+      "active": false
+    }
+  ],
+  "students": [
+    {
+      "id": "st-1",
+      "roll_no": "22CSE001",
+      "student_name": "Ramesh Sharma",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "st-2",
+      "roll_no": "22CSE002",
+      "student_name": "Suresh Varma",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "st-3",
+      "roll_no": "22CSE003",
+      "student_name": "Anjali Gupta",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "st-4",
+      "roll_no": "22CSE004",
+      "student_name": "Rahul Nair",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "st-5",
+      "roll_no": "22CSE005",
+      "student_name": "Vikram Singh",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "st-6",
+      "roll_no": "22CSE006",
+      "student_name": "Meera Das",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "st-7",
+      "roll_no": "22CSE007",
+      "student_name": "Karan Johar",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "st-8",
+      "roll_no": "22CSE008",
+      "student_name": "Sneha Reddy",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "st-9",
+      "roll_no": "22CSE009",
+      "student_name": "Saurav Ganguly",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "st-10",
+      "roll_no": "22CSE010",
+      "student_name": "Divya Teja",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "st-11",
+      "roll_no": "22CSE051",
+      "student_name": "Pranav Roy",
+      "department": "CSE",
+      "year": 2,
+      "section": "B"
+    },
+    {
+      "id": "st-12",
+      "roll_no": "22CSE052",
+      "student_name": "Deepika Padukone",
+      "department": "CSE",
+      "year": 2,
+      "section": "B"
+    },
+    {
+      "id": "st-13",
+      "roll_no": "22CSE053",
+      "student_name": "Abhishek Singh",
+      "department": "CSE",
+      "year": 2,
+      "section": "B"
+    },
+    {
+      "id": "st-14",
+      "roll_no": "21IT001",
+      "student_name": "Aman Chopra",
+      "department": "IT",
+      "year": 3,
+      "section": "A"
+    },
+    {
+      "id": "st-15",
+      "roll_no": "21IT002",
+      "student_name": "Nehal Arora",
+      "department": "IT",
+      "year": 3,
+      "section": "A"
+    },
+    {
+      "id": "st-16",
+      "roll_no": "21IT003",
+      "student_name": "Pooja Hegde",
+      "department": "IT",
+      "year": 3,
+      "section": "A"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "as-1",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "as-2",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-2",
+      "department": "CSE",
+      "year": 2,
+      "section": "A"
+    },
+    {
+      "id": "as-3",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "department": "CSE",
+      "year": 2,
+      "section": "B"
+    },
+    {
+      "id": "as-4",
+      "faculty_id": "fac-2",
+      "subject_id": "sub-3",
+      "department": "IT",
+      "year": 3,
+      "section": "A"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "attendance_date": "2026-06-12",
+      "student_id": "st-1",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-2",
+      "attendance_date": "2026-06-12",
+      "student_id": "st-2",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-3",
+      "attendance_date": "2026-06-12",
+      "student_id": "st-3",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Absent"
+    },
+    {
+      "id": "att-4",
+      "attendance_date": "2026-06-12",
+      "student_id": "st-4",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-5",
+      "attendance_date": "2026-06-12",
+      "student_id": "st-5",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-6",
+      "attendance_date": "2026-06-12",
+      "student_id": "st-6",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-7",
+      "attendance_date": "2026-06-12",
+      "student_id": "st-7",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Absent"
+    },
+    {
+      "id": "att-8",
+      "attendance_date": "2026-06-12",
+      "student_id": "st-8",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-9",
+      "attendance_date": "2026-06-12",
+      "student_id": "st-9",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-10",
+      "attendance_date": "2026-06-12",
+      "student_id": "st-10",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-11",
+      "attendance_date": "2026-06-13",
+      "student_id": "st-1",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-12",
+      "attendance_date": "2026-06-13",
+      "student_id": "st-2",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-13",
+      "attendance_date": "2026-06-13",
+      "student_id": "st-3",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-14",
+      "attendance_date": "2026-06-13",
+      "student_id": "st-4",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-15",
+      "attendance_date": "2026-06-13",
+      "student_id": "st-5",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Absent"
+    },
+    {
+      "id": "att-16",
+      "attendance_date": "2026-06-13",
+      "student_id": "st-6",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-17",
+      "attendance_date": "2026-06-13",
+      "student_id": "st-7",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-18",
+      "attendance_date": "2026-06-13",
+      "student_id": "st-8",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-19",
+      "attendance_date": "2026-06-13",
+      "student_id": "st-9",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Absent"
+    },
+    {
+      "id": "att-20",
+      "attendance_date": "2026-06-13",
+      "student_id": "st-10",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-1",
+      "status": "Present"
+    },
+    {
+      "id": "att-21",
+      "attendance_date": "2026-06-14",
+      "student_id": "st-1",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-2",
+      "status": "Present"
+    },
+    {
+      "id": "att-22",
+      "attendance_date": "2026-06-14",
+      "student_id": "st-2",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-2",
+      "status": "Absent"
+    },
+    {
+      "id": "att-23",
+      "attendance_date": "2026-06-14",
+      "student_id": "st-3",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-2",
+      "status": "Present"
+    },
+    {
+      "id": "att-24",
+      "attendance_date": "2026-06-14",
+      "student_id": "st-4",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-2",
+      "status": "Present"
+    },
+    {
+      "id": "att-25",
+      "attendance_date": "2026-06-14",
+      "student_id": "st-5",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-2",
+      "status": "Present"
+    },
+    {
+      "id": "att-26",
+      "attendance_date": "2026-06-14",
+      "student_id": "st-6",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-2",
+      "status": "Present"
+    },
+    {
+      "id": "att-27",
+      "attendance_date": "2026-06-14",
+      "student_id": "st-7",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-2",
+      "status": "Present"
+    },
+    {
+      "id": "att-28",
+      "attendance_date": "2026-06-14",
+      "student_id": "st-8",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-2",
+      "status": "Present"
+    },
+    {
+      "id": "att-29",
+      "attendance_date": "2026-06-14",
+      "student_id": "st-9",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-2",
+      "status": "Absent"
+    },
+    {
+      "id": "att-30",
+      "attendance_date": "2026-06-14",
+      "student_id": "st-10",
+      "faculty_id": "fac-1",
+      "subject_id": "sub-2",
+      "status": "Present"
+    }
+  ]
+}

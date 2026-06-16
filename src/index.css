@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-slate-950: #0f172a; /* Outer bg becomes standard Slate-900 */
+  --color-slate-900: #1e293b; /* Card bg becomes standard Slate-800 */
+  --color-slate-850: #273549; /* Intermediate containers become softer Slate-750 */
+  --color-slate-800: #334155; /* Table headers & Inputs become standard Slate-700 */
+  --color-slate-700: #475569; /* Borders / secondary elements become soft Slate-600 */
+}
+
+@variant dark (&:where(.dark, .dark *));
